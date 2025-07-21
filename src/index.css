@@ -1,0 +1,62 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.error {
+  color: rgba(224, 26, 26, 0.849);
+  font-size: smaller;
+}
+
+.input {
+  border-radius: 10px;
+}
+
+.App {
+  background: radial-gradient(
+    circle,
+    rgba(255, 233, 32, 0.445) 0%,
+    rgba(255, 180, 40, 0.938) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-form {
+  padding: 40px 60px;
+  background-color: rgba(97, 97, 97, 0.404);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+.form-group {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ffcb1f;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
