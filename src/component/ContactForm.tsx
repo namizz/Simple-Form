@@ -52,7 +52,7 @@ const ContactForm = () => {
         <p className="error">{errors?.msg?.message}</p>
       </div>
       <DevTool control={control} />
-      <button type="submit">Send Message</button>
+      <button type="submit">Send</button>
     </form>
   );
 };
